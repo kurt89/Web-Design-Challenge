@@ -3,14 +3,14 @@
 
 <head style="background-color:rgba(240, 238, 233, 0.753);">
   <meta charset="UTF-8">
-  <title>Summary</title>
+  <title>Cloudiness</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
  
 </head>
 <body style="background-color:#dbdfc9;">
   <nav class="navbar navbar-expand-lg p-0 navbar-light bg-light">
-    <a class="navbar-brand bg-info p-2 rounded text-white" href="#">Latitide</a>
+    <a class="navbar-brand bg-info p-2 rounded text-white" href="../index.html">Latitide</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -22,46 +22,48 @@
             Plots
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="./visualizations/Vis-Fig1.html">Max Temperature</a>
-            <a class="dropdown-item" href="./visualizations/Vis-Fig2.html">Humidity</a>
-            <a class="dropdown-item" href="./visualizations/Vis-Fig3.html">Cloudiness</a>
-            <a class="dropdown-item" href="./visualizations/Vis-Fig4.html">Wind Speed</a>
+            <a class="dropdown-item" href="Vis-Fig1.html">Max Temperature</a>
+            <a class="dropdown-item" href="Vis-Fig2.html">Humidity</a>
+            <a class="dropdown-item" href="#">Cloudiness</a>
+            <a class="dropdown-item" href="Vis-Fig4.html">Wind Speed</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./visualizations/Vis-Comparison.html">Comparison</a>
+          <a class="nav-link" href="Vis-Comparison.html">Comparison</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./visualizations/Vis-Data.html">Data</a>
+          <a class="nav-link" href="Vis-Data.html">Data</a>
         </li>
       </ul>
     </div>
   </nav>
 
+ 
 <div class="container-fluid">
-  <h1>Summary: Latitude vs. X</h1>
+  <h1>Cloudiness</h1>
   <div class="row">
-      <div class="col-xs-12 col-sm-6">
-          <img class="img-responsive" src="assets/images/Fig1.png" width="1150" height="650"/>
-      </div>
-      <div class="col-xs-12 col-sm-3">
-          <div class="col-xs-5">
-              <h4>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</h4>
-              <h4>After assemblimng the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, windspeed, and humidity. This site provides the source data and the visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</h4>
-          </div>
-      </div>
-      <div class="col-xs-12 col-xs-3">
-          <!-- <div class="col-xs-3"> -->
-              <h3 class="pull-left">
-              <img class="img-responsive" src="assets/images/Fig1.png" width="20%">
-              <img class="img-responsive" src="assets/images/Fig2.png" width="20%">
-              <img class="img-responsive" src="assets/images/Fig3.png" width="20%">
-              <img class="img-responsive" src="assets/images/Fig4.png" width="20%">
+  <div class="col-xs-12 col-sm-6">
+      <img class="img-responsive" src="../assets/images/Fig3.png" width="1150" height="700"/>
+  </div>
+  <div class="col-xs-12 col-sm-7">
+      <div class="row">
+          <div class="col-xs-6">
+              <h3>Clouds exist in near equal measures across all latitudes.
               </h3>
-          <!-- </div>    
-      </div>
+          </div>
+          <div class="col-xs-12 col-xs-3">
+              <h3 class="pull-right">
+                <img class="img-responsive" src="../assets/images/Fig1.png" width="20%">
+                <img class="img-responsive" src="../assets/images/Fig2.png" width="20%">
+                <img class="img-responsive" src="../assets/images/Fig3.png" width="20%">
+                <img class="img-responsive" src="../assets/images/Fig4.png" width="20%">
+              </div>
+              </h3>
+          </div>
+      </div> 
   </div>
 </div>
+
 
 
 
